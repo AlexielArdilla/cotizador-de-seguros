@@ -12,6 +12,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Ya cotizado 
 ![imagen de cotizador2](cotizador2.jpg)
 
+### LIVE:
+
+### https://cotizador-seguros-alexx.netlify.app/
 
 ## Available Scripts
 
