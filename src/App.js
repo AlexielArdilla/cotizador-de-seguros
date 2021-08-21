@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import Formulario from './components/Formulario';
 import Resumen from './components/Resumen';
 import Resultado from './components/Resultado';
+import Spinner from './components/Spinner';
 
 const Contenedor = styled.div`
 
@@ -31,6 +32,8 @@ const [resumen, guardarResumen] = useState({
     }
   });
 
+  const [cargando, guardarCargando] = useState(false);
+
 //extraer datos
 
 const { cotizacion, datos } = resumen;
@@ -43,7 +46,12 @@ const { cotizacion, datos } = resumen;
     <ContenedorFormulario>
       <Formulario
       guardarResumen ={ guardarResumen }
+      guardarCargando = { guardarCargando }
       />
+
+      { (cargando) ? <Spinner/> : null }
+      
+
       <Resumen
       datos = {datos}
       />
