@@ -125,9 +125,10 @@ const cotizarSeguro = e =>{
     guardarCargando(true);
 
     setTimeout(() => {
-        
+        //elimina el spinner
         guardarCargando(false);
 
+        //pasa info al componente principal
         guardarResumen({
             cotizacion: resultado,
             datos
