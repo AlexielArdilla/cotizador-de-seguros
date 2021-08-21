@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Cotizador de seguros en React
+
+### El cotizador se basa en el aís del automovil, el año y el tipo de seguro (básico o completo) para cotizar el seguro.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Imágenes:
+
+### Principio
+![imagen de cotizador](cotizador1.jpg)
+
+### Ya cotizado 
+![imagen de cotizador2](cotizador2.jpg)
+
 
 ## Available Scripts
 
